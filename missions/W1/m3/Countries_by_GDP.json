@@ -232,10 +232,6 @@
         "GDP_USD_billion":209.71
     },
     {
-        "Country":"Cuba",
-        "GDP_USD_billion":null
-    },
-    {
         "Country":"Morocco",
         "GDP_USD_billion":179.61
     },
@@ -532,10 +528,6 @@
         "GDP_USD_billion":20.16
     },
     {
-        "Country":"Syria",
-        "GDP_USD_billion":null
-    },
-    {
         "Country":"Moldova",
         "GDP_USD_billion":19.62
     },
@@ -562,10 +554,6 @@
     {
         "Country":"Laos",
         "GDP_USD_billion":16.93
-    },
-    {
-        "Country":"North Korea",
-        "GDP_USD_billion":null
     },
     {
         "Country":"Bahamas",
@@ -612,10 +600,6 @@
         "GDP_USD_billion":12.67
     },
     {
-        "Country":"Channel Islands",
-        "GDP_USD_billion":null
-    },
-    {
         "Country":"Mauritania",
         "GDP_USD_billion":11.95
     },
@@ -624,28 +608,12 @@
         "GDP_USD_billion":10.95
     },
     {
-        "Country":"Monaco",
-        "GDP_USD_billion":null
-    },
-    {
-        "Country":"New Caledonia",
-        "GDP_USD_billion":null
-    },
-    {
         "Country":"Liechtenstein",
         "GDP_USD_billion":9.42
     },
     {
         "Country":"Montenegro",
         "GDP_USD_billion":9.35
-    },
-    {
-        "Country":"Bermuda",
-        "GDP_USD_billion":null
-    },
-    {
-        "Country":"Yemen",
-        "GDP_USD_billion":null
     },
     {
         "Country":"Sierra Leone",
@@ -660,24 +628,8 @@
         "GDP_USD_billion":7.56
     },
     {
-        "Country":"Isle of Man",
-        "GDP_USD_billion":null
-    },
-    {
-        "Country":"Cayman Islands",
-        "GDP_USD_billion":null
-    },
-    {
         "Country":"Burundi",
         "GDP_USD_billion":7.03
-    },
-    {
-        "Country":"Guam",
-        "GDP_USD_billion":null
-    },
-    {
-        "Country":"French Polynesia",
-        "GDP_USD_billion":null
     },
     {
         "Country":"Fiji",
@@ -696,10 +648,6 @@
         "GDP_USD_billion":4.98
     },
     {
-        "Country":"U.S. Virgin Islands",
-        "GDP_USD_billion":null
-    },
-    {
         "Country":"Djibouti",
         "GDP_USD_billion":4.61
     },
@@ -716,16 +664,8 @@
         "GDP_USD_billion":4.32
     },
     {
-        "Country":"Faroe Islands",
-        "GDP_USD_billion":null
-    },
-    {
         "Country":"Bhutan",
         "GDP_USD_billion":3.41
-    },
-    {
-        "Country":"Greenland",
-        "GDP_USD_billion":null
     },
     {
         "Country":"Central African Republic",
@@ -734,10 +674,6 @@
     {
         "Country":"Belize",
         "GDP_USD_billion":3.3
-    },
-    {
-        "Country":"Cura\u00e7ao",
-        "GDP_USD_billion":null
     },
     {
         "Country":"Cape Verde",
@@ -752,10 +688,6 @@
         "GDP_USD_billion":2.5
     },
     {
-        "Country":"Zanzibar",
-        "GDP_USD_billion":null
-    },
-    {
         "Country":"Guinea-Bissau",
         "GDP_USD_billion":2.47
     },
@@ -766,10 +698,6 @@
     {
         "Country":"Antigua and Barbuda",
         "GDP_USD_billion":2.34
-    },
-    {
-        "Country":"Eritrea",
-        "GDP_USD_billion":null
     },
     {
         "Country":"San Marino",
@@ -788,20 +716,8 @@
         "GDP_USD_billion":1.9
     },
     {
-        "Country":"Turks and Caicos Islands",
-        "GDP_USD_billion":null
-    },
-    {
-        "Country":"Sint Maarten",
-        "GDP_USD_billion":null
-    },
-    {
         "Country":"Comoros",
         "GDP_USD_billion":1.61
-    },
-    {
-        "Country":"British Virgin Islands",
-        "GDP_USD_billion":null
     },
     {
         "Country":"Grenada",
@@ -824,24 +740,12 @@
         "GDP_USD_billion":1.12
     },
     {
-        "Country":"Northern Mariana Islands",
-        "GDP_USD_billion":null
-    },
-    {
         "Country":"S\u00e3o Tom\u00e9 and Pr\u00edncipe",
         "GDP_USD_billion":0.98
     },
     {
-        "Country":"American Samoa",
-        "GDP_USD_billion":null
-    },
-    {
         "Country":"Dominica",
         "GDP_USD_billion":0.75
-    },
-    {
-        "Country":"Saint Martin",
-        "GDP_USD_billion":null
     },
     {
         "Country":"Tonga",
@@ -850,14 +754,6 @@
     {
         "Country":"Micronesia",
         "GDP_USD_billion":0.49
-    },
-    {
-        "Country":"Anguilla",
-        "GDP_USD_billion":null
-    },
-    {
-        "Country":"Cook Islands",
-        "GDP_USD_billion":null
     },
     {
         "Country":"Palau",
@@ -874,10 +770,6 @@
     {
         "Country":"Nauru",
         "GDP_USD_billion":0.17
-    },
-    {
-        "Country":"Montserrat",
-        "GDP_USD_billion":null
     },
     {
         "Country":"Tuvalu",

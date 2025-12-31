@@ -1,6 +1,6 @@
-2025-December-31-11-03-19, [INFO] Process started: GDP Data ETL
-2025-December-31-11-03-20, [INFO] Extract Data complete
-2025-December-31-11-03-20, [INFO] HTML -> DataFrame conversion complete
-2025-December-31-11-03-20, [INFO] GDP data exported to JSON file
-2025-December-31-11-03-20, [INFO] GDP table created successfully in SQLite
-2025-December-31-11-03-20, [INFO] Process completed succesfully
+2025-December-31-14-22-32, [INFO] Process started: GDP Data ETL
+2025-December-31-14-22-33, [INFO] Extract Data complete
+2025-December-31-14-22-33, [INFO] HTML -> DataFrame conversion complete
+2025-December-31-14-22-33, [INFO] GDP data exported to JSON file
+2025-December-31-14-22-33, [INFO] GDP table created successfully in SQLite
+2025-December-31-14-22-33, [INFO] Process completed succesfully

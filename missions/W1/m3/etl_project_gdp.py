@@ -77,7 +77,7 @@ def load_data(df: pd.DataFrame, save_options: list[str], country_region_map: dic
     region_added_df = df.assign(Region = lambda x: x['Country'].map(country_region_map))
     region_added_df.dropna()
     region_added_df['GDP_USD_billion'] = pd.to_numeric(region_added_df['GDP_USD_billion'])
-    top5_Average = region_added_df.groupby('Region')['GDP_USD_billion'].apply(lambda x: x.nlargest(5).mean())
+    top5_Average = region_added_df.groupby('Region')['GDP_USD_billion'].apply(lambda x: round(x.nlargest(5).mean(),2))
     print(top5_Average)
 
     if 'json' in save_options:
@@ -105,6 +105,8 @@ def log(message: str) -> None:
 
 def convert_unit_to_B(money_str: str) -> float:
     """ 달러 단위 변환, 값이 NA인 경우 None으로 변경 """
+    if '(' in money_str or ')' in money_str:
+        return None
     converted_str = re.sub(r'[^\d.]', '', str(money_str))
     if not converted_str:
         return None

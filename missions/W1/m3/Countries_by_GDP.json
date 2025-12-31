@@ -308,10 +308,6 @@
         "GDP_USD_billion":99.21
     },
     {
-        "Country":"Sri Lanka",
-        "GDP_USD_billion":989642.02
-    },
-    {
         "Country":"Lithuania",
         "GDP_USD_billion":95.27
     },
@@ -460,10 +456,6 @@
         "GDP_USD_billion":29.37
     },
     {
-        "Country":"Lebanon",
-        "GDP_USD_billion":282802.02
-    },
-    {
         "Country":"Armenia",
         "GDP_USD_billion":27.86
     },
@@ -544,10 +536,6 @@
         "GDP_USD_billion":18.78
     },
     {
-        "Country":"Afghanistan",
-        "GDP_USD_billion":180802.02
-    },
-    {
         "Country":"Tajikistan",
         "GDP_USD_billion":17.03
     },
@@ -582,10 +570,6 @@
     {
         "Country":"Namibia",
         "GDP_USD_billion":14.69
-    },
-    {
-        "Country":"Palestine",
-        "GDP_USD_billion":137112.02
     },
     {
         "Country":"Equatorial Guinea",

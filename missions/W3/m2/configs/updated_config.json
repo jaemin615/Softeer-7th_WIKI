@@ -1,0 +1,22 @@
+{
+  "core-site.xml": {
+    "fs.defaultFS": "hdfs://namenode:9000",
+    "hadoop.tmp.dir": "/hadoop/tmp",
+    "io.file.buffer.size": "131072"
+  },
+  "hdfs-site.xml": {
+    "dfs.replication": "2",
+    "dfs.blocksize": "134217728",
+    "dfs.namenode.name.dir": "/hadoop/dfs/name"
+  },
+  "mapred-site.xml": {
+    "mapreduce.framework.name": "yarn",
+    "mapreduce.jobhistory.address": "namenode:10020",
+    "mapreduce.task.io.sort.mb": "256"
+  },
+  "yarn-site.xml": {
+    "yarn.resourcemanager.address": "namenode:8032",
+    "yarn.nodemanager.resource.memory-mb": "8192",
+    "yarn.scheduler.minimum-allocation-mb": "1024"
+  }
+}

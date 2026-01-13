@@ -1,0 +1,10 @@
+services:
+  hadoop:
+    build: .
+    image: hadoop-image
+    container_name: hadoop-container
+    ports:
+      - "9870:9870" # HDFS NameNode UI
+      - "8088:8088" # YARN ResourceManager UI
+    volumes:
+      - ./hadoop_data:/opt/hadoop/data

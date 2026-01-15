@@ -1,0 +1,39 @@
+services:
+  master:
+    build: .
+    container_name: namenode
+    hostname: namenode
+    ports:
+      - "9870:9870" # HDFS Web UI
+      - "8088:8088" # YARN Web UI
+    volumes:
+      - hadoop_master_data:/hadoop/dfs/name
+    environment:
+      - NODE_TYPE=master
+
+  worker1:
+    build: .
+    container_name: hadoop-worker1
+    hostname: hadoop-worker1
+    volumes:
+      - hadoop_worker1_data:/hadoop/dfs/data
+    environment:
+      - NODE_TYPE=worker
+
+  worker2:
+    build: .
+    container_name: hadoop-worker2
+    hostname: hadoop-worker2
+    volumes:
+      - hadoop_worker2_data:/hadoop/dfs/data
+    environment:
+      - NODE_TYPE=worker
+
+volumes:
+  hadoop_master_data:
+  hadoop_worker1_data:
+  hadoop_worker2_data:
+
+networks:
+  default:
+    name: hadoop-net
